@@ -1,0 +1,991 @@
+/* ============================================
+   DARK MODE STYLESHEET
+   Soft Modern Academic Dashboard Theme
+   ============================================ */
+
+/* HTML Element Dark Mode - FIRST AND FASTEST */
+html.dark-mode {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+html.dark-mode body {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+/* Base Dark Mode Styling */
+body.dark-mode {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+body.dark-mode * {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* ============================================
+   MAIN LAYOUT
+   ============================================ */
+
+html.dark-mode .main-layout {
+    background-color: #0f172a;
+}
+
+body.dark-mode .main-layout {
+    background-color: #0f172a;
+}
+
+/* ============================================
+   SIDEBAR - HTML DARK MODE
+   ============================================ */
+
+html.dark-mode .sidebar {
+    background-color: #111827;
+    border-right-color: #1e293b;
+    color: #f8fafc;
+}
+
+html.dark-mode .sidebar-brand {
+    height: var(--layout-header-height) !important;
+    min-height: var(--layout-header-height) !important;
+    max-height: var(--layout-header-height) !important;
+    border-bottom-color: #1e293b;
+    background-color: #111827;
+    padding: 0 var(--sidebar-padding-x) !important;
+}
+
+html.dark-mode .sidebar-brand .brand-title {
+    color: #ffffff;
+}
+
+html.dark-mode .sidebar-brand .book-logo {
+    background: #4c63ff;
+    color: #ffffff;
+}
+
+html.dark-mode .nav-link {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 12px !important;
+    color: #94a3b8;
+    background-color: transparent;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    white-space: nowrap !important;
+    text-overflow: ellipsis;
+    height: 44px;
+    min-height: 44px;
+    line-height: 44px;
+    flex-wrap: nowrap !important;
+}
+
+html.dark-mode .nav-link span {
+    display: inline-block !important;
+    line-height: 1 !important;
+    white-space: nowrap !important;
+}
+
+html.dark-mode .nav-link i {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #94a3b8;
+    line-height: 1 !important;
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 16px !important;
+    margin: 0 !important;
+    flex-shrink: 0 !important;
+}
+
+html.dark-mode .nav-link:hover {
+    background-color: rgba(91, 124, 250, 0.1);
+    color: #5b7cfa;
+}
+
+html.dark-mode .nav-link.active {
+    background: rgba(91, 124, 250, 0.12);
+    color: #5b7cfa;
+    font-weight: 600;
+    border-left: 3px solid #5b7cfa;
+    padding-left: 15px;
+}
+
+html.dark-mode .nav-link.active::before {
+    background: linear-gradient(180deg, #5b7cfa 0%, #4b69da 100%);
+}
+
+/* ============================================
+   NAVBAR - HTML DARK MODE
+   ============================================ */
+
+html.dark-mode .navbar {
+    background: rgba(17, 24, 39, 0.95);
+    border-bottom-color: #1e293b;
+    height: var(--layout-header-height) !important;
+    min-height: var(--layout-header-height) !important;
+    max-height: var(--layout-header-height) !important;
+    padding-left: var(--layout-padding-x) !important;
+    padding-right: var(--layout-padding-x) !important;
+}
+
+html.dark-mode .navbar-title {
+    color: #f8fafc;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+
+html.dark-mode .navbar-user .user-name {
+    color: #f8fafc;
+}
+
+html.dark-mode .navbar-user .btn-logout {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border-color: #2d3748;
+}
+
+html.dark-mode .navbar-user .btn-logout:hover {
+    background-color: #2d3748;
+    color: #5b7cfa;
+    border-color: #3f4a5e;
+}
+
+html.dark-mode .theme-toggle-btn {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border-color: #2d3748;
+}
+
+html.dark-mode .theme-toggle-btn:hover {
+    background-color: #2d3748;
+    color: #5b7cfa;
+    border-color: #3f4a5e;
+}
+
+/* ============================================
+   CONTENT AREA - HTML DARK MODE
+   ============================================ */
+
+html.dark-mode .content-wrapper {
+    background-color: #0f172a;
+}
+
+html.dark-mode .dashboard-content {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+html.dark-mode main {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+html.dark-mode .card {
+    background-color: #111827;
+    border-color: #1e293b;
+    color: #f8fafc;
+}
+
+html.dark-mode .card-header {
+    border-bottom-color: #1e293b;
+    background-color: #111827;
+}
+
+html.dark-mode .card-header h5 {
+    color: #f8fafc;
+}
+
+html.dark-mode table {
+    color: #f8fafc;
+}
+
+html.dark-mode table thead {
+    background-color: #1e293b;
+}
+
+html.dark-mode table thead th {
+    color: #f8fafc;
+    background-color: #1e293b;
+    border-color: #1e293b;
+}
+
+html.dark-mode table tbody tr {
+    border-color: #1e293b;
+    background-color: #111827;
+}
+
+html.dark-mode table tbody tr:hover {
+    background-color: #1e293b;
+}
+
+html.dark-mode table tbody td {
+    color: #f8fafc;
+    border-color: #1e293b;
+}
+
+html.dark-mode .form-control,
+html.dark-mode .form-select,
+html.dark-mode input[type="text"],
+html.dark-mode input[type="email"],
+html.dark-mode input[type="password"],
+html.dark-mode input[type="number"],
+html.dark-mode input[type="date"],
+html.dark-mode textarea,
+html.dark-mode select {
+    background-color: #1e293b;
+    border-color: #2d3748;
+    color: #f8fafc;
+}
+
+html.dark-mode .form-control:focus,
+html.dark-mode .form-select:focus {
+    background-color: #1e293b;
+    border-color: #5b7cfa;
+    color: #f8fafc;
+}
+
+html.dark-mode .form-control::placeholder,
+html.dark-mode input::placeholder {
+    color: #64748b;
+}
+
+/* ============================================
+   SIDEBAR - BODY DARK MODE
+   ============================================ */
+
+body.dark-mode .sidebar {
+    background-color: #111827;
+    border-right-color: #1e293b;
+    color: #f8fafc;
+}
+
+body.dark-mode .sidebar-brand {
+    height: var(--layout-header-height) !important;
+    min-height: var(--layout-header-height) !important;
+    max-height: var(--layout-header-height) !important;
+    border-bottom-color: #1e293b;
+    background-color: #111827;
+    padding: 0 var(--sidebar-padding-x) !important;
+}
+
+body.dark-mode .sidebar-brand .brand-title {
+    color: #ffffff;
+}
+
+body.dark-mode .sidebar-brand .book-logo {
+    background: #4c63ff;
+    color: #ffffff;
+}
+
+/* Navigation Links */
+body.dark-mode .nav-link {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 12px !important;
+    color: #94a3b8;
+    background-color: transparent;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    white-space: nowrap !important;
+    text-overflow: ellipsis;
+    height: 44px;
+    min-height: 44px;
+    line-height: 44px;
+    flex-wrap: nowrap !important;
+}
+
+body.dark-mode .nav-link span {
+    display: inline-block !important;
+    line-height: 1 !important;
+    white-space: nowrap !important;
+}
+
+body.dark-mode .nav-link i {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #94a3b8;
+    line-height: 1 !important;
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 16px !important;
+    margin: 0 !important;
+    flex-shrink: 0 !important;
+}
+
+body.dark-mode .nav-link:hover {
+    background-color: rgba(91, 124, 250, 0.1);
+    color: #5b7cfa;
+}
+
+body.dark-mode .nav-link:hover i {
+    color: #5b7cfa;
+}
+
+body.dark-mode .nav-link.active {
+    background: rgba(91, 124, 250, 0.12);
+    color: #5b7cfa;
+    font-weight: 600;
+}
+
+body.dark-mode .nav-link.active i {
+    color: #5b7cfa;
+}
+
+
+
+/* ============================================
+   NAVBAR / HEADER
+   ============================================ */
+
+body.dark-mode .navbar {
+    background: rgba(17, 24, 39, 0.95);
+    border-bottom-color: #1e293b;
+    backdrop-filter: blur(12px);
+    height: var(--layout-header-height) !important;
+    min-height: var(--layout-header-height) !important;
+    max-height: var(--layout-header-height) !important;
+    padding-left: var(--layout-padding-x) !important;
+    padding-right: var(--layout-padding-x) !important;
+}
+
+body.dark-mode .navbar-content {
+    background-color: transparent;
+    height: 100%;
+}
+
+body.dark-mode .navbar-title {
+    color: #f8fafc;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+
+body.dark-mode .navbar-title img {
+    border-color: #1e293b;
+}
+
+body.dark-mode .navbar-user {
+    color: #f8fafc;
+}
+
+body.dark-mode .navbar-user .user-name {
+    color: #f8fafc;
+}
+
+body.dark-mode .navbar-user .btn-logout {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border-color: #2d3748;
+}
+
+body.dark-mode .navbar-user .btn-logout:hover {
+    background-color: #2d3748;
+    color: #5b7cfa;
+    border-color: #3f4a5e;
+}
+
+/* Theme Toggle Button */
+body.dark-mode .theme-toggle-btn {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border-color: #2d3748;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .theme-toggle-btn:hover {
+    background-color: #2d3748;
+    color: #5b7cfa;
+    border-color: #3f4a5e;
+    transform: scale(1.05);
+}
+
+/* ============================================
+   MAIN CONTENT AREA
+   ============================================ */
+
+body.dark-mode .content-wrapper {
+    background-color: #0f172a;
+}
+
+body.dark-mode .dashboard-content {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+body.dark-mode main {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+/* ============================================
+   PAGE HEADER
+   ============================================ */
+
+body.dark-mode .page-header h2 {
+    color: #f8fafc;
+}
+
+body.dark-mode .page-header p {
+    color: #94a3b8;
+}
+
+/* ============================================
+   CARDS & PANELS
+   ============================================ */
+
+body.dark-mode .card {
+    background-color: #111827;
+    border-color: #1e293b;
+    color: #f8fafc;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .card:hover {
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .card-header {
+    border-bottom-color: #1e293b;
+    background-color: #111827;
+}
+
+body.dark-mode .card-header h5 {
+    color: #f8fafc;
+}
+
+body.dark-mode .stat-card {
+    background-color: #111827;
+    border-color: #1e293b;
+}
+
+body.dark-mode .stat-card .stat-value {
+    color: #f8fafc;
+}
+
+body.dark-mode .stat-card .stat-label {
+    color: #94a3b8;
+}
+
+body.dark-mode .stat-card:hover {
+    background-color: #1e293b;
+    box-shadow: 0 10px 28px rgba(91, 124, 250, 0.15);
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+
+body.dark-mode table {
+    color: #f8fafc;
+    border-color: #1e293b;
+}
+
+body.dark-mode table thead {
+    background-color: #1e293b;
+    border-color: #1e293b;
+}
+
+body.dark-mode table thead th {
+    color: #f8fafc;
+    background-color: #1e293b;
+    border-color: #1e293b;
+    font-weight: 600;
+}
+
+body.dark-mode table tbody tr {
+    border-color: #1e293b;
+    background-color: #111827;
+}
+
+body.dark-mode table tbody tr:hover {
+    background-color: #1e293b;
+}
+
+body.dark-mode table tbody td {
+    color: #f8fafc;
+    border-color: #1e293b;
+}
+
+/* ============================================
+   FORMS & INPUTS
+   ============================================ */
+
+body.dark-mode .form-control,
+body.dark-mode .form-select,
+body.dark-mode input[type="text"],
+body.dark-mode input[type="email"],
+body.dark-mode input[type="password"],
+body.dark-mode input[type="number"],
+body.dark-mode input[type="date"],
+body.dark-mode textarea,
+body.dark-mode select {
+    background-color: #1e293b;
+    border-color: #2d3748;
+    color: #f8fafc;
+}
+
+body.dark-mode .form-control:focus,
+body.dark-mode .form-select:focus,
+body.dark-mode input:focus,
+body.dark-mode textarea:focus,
+body.dark-mode select:focus {
+    background-color: #1e293b;
+    border-color: #5b7cfa;
+    color: #f8fafc;
+    box-shadow: 0 0 0 0.25rem rgba(91, 124, 250, 0.25);
+}
+
+body.dark-mode .form-control::placeholder,
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+    color: #64748b;
+}
+
+body.dark-mode .form-label {
+    color: #f8fafc;
+}
+
+/* Search Box */
+body.dark-mode .search-box {
+    background-color: #1e293b;
+    border-color: #2d3748;
+}
+
+body.dark-mode .search-box input {
+    background-color: #1e293b;
+    border-color: #2d3748;
+    color: #f8fafc;
+}
+
+body.dark-mode .search-box input::placeholder {
+    color: #64748b;
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+
+body.dark-mode .btn-primary {
+    background-color: #5b7cfa;
+    border-color: #5b7cfa;
+    color: #fff;
+}
+
+body.dark-mode .btn-primary:hover,
+body.dark-mode .btn-primary:focus {
+    background-color: #4b69da;
+    border-color: #4b69da;
+    color: #fff;
+}
+
+body.dark-mode .btn-secondary {
+    background-color: #1e293b;
+    border-color: #2d3748;
+    color: #f8fafc;
+}
+
+body.dark-mode .btn-secondary:hover,
+body.dark-mode .btn-secondary:focus {
+    background-color: #2d3748;
+    border-color: #3f4a5e;
+    color: #f8fafc;
+}
+
+body.dark-mode .btn-danger {
+    background-color: #ef4444;
+    border-color: #ef4444;
+    color: #fff;
+}
+
+body.dark-mode .btn-danger:hover,
+body.dark-mode .btn-danger:focus {
+    background-color: #dc2626;
+    border-color: #dc2626;
+    color: #fff;
+}
+
+body.dark-mode .btn-warning {
+    background-color: #f59e0b;
+    border-color: #f59e0b;
+    color: #000;
+}
+
+body.dark-mode .btn-warning:hover,
+body.dark-mode .btn-warning:focus {
+    background-color: #d97706;
+    border-color: #d97706;
+    color: #000;
+}
+
+body.dark-mode .btn-success {
+    background-color: #22c55e;
+    border-color: #22c55e;
+    color: #000;
+}
+
+body.dark-mode .btn-success:hover,
+body.dark-mode .btn-success:focus {
+    background-color: #16a34a;
+    border-color: #16a34a;
+    color: #fff;
+}
+
+body.dark-mode .btn-info {
+    background-color: #06b6d4;
+    border-color: #06b6d4;
+    color: #000;
+}
+
+body.dark-mode .btn-info:hover,
+body.dark-mode .btn-info:focus {
+    background-color: #0891b2;
+    border-color: #0891b2;
+    color: #fff;
+}
+
+/* ============================================
+   BADGES & LABELS
+   ============================================ */
+
+body.dark-mode .badge {
+    background-color: #5b7cfa;
+    color: #f8fafc;
+}
+
+body.dark-mode .badge-primary {
+    background-color: #5b7cfa;
+    color: #f8fafc;
+}
+
+body.dark-mode .badge-success {
+    background-color: #22c55e;
+    color: #000;
+}
+
+body.dark-mode .badge-danger {
+    background-color: #ef4444;
+    color: #f8fafc;
+}
+
+body.dark-mode .badge-warning {
+    background-color: #f59e0b;
+    color: #000;
+}
+
+body.dark-mode .badge-info {
+    background-color: #06b6d4;
+    color: #000;
+}
+
+body.dark-mode .badge-secondary {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border: 1px solid #2d3748;
+}
+
+/* ============================================
+   ALERTS
+   ============================================ */
+
+body.dark-mode .alert {
+    border-color: #1e293b;
+}
+
+body.dark-mode .alert-success {
+    background-color: #0f2f1e;
+    border-color: #22c55e;
+    color: #86efac;
+}
+
+body.dark-mode .alert-danger {
+    background-color: #3f1f1f;
+    border-color: #ef4444;
+    color: #fca5a5;
+}
+
+body.dark-mode .alert-warning {
+    background-color: #2d2315;
+    border-color: #f59e0b;
+    color: #fbbf24;
+}
+
+body.dark-mode .alert-info {
+    background-color: #0f2f3c;
+    border-color: #06b6d4;
+    color: #22d3ee;
+}
+
+/* ============================================
+   MODALS
+   ============================================ */
+
+body.dark-mode .modal-content {
+    background-color: #111827;
+    border-color: #1e293b;
+    color: #f8fafc;
+}
+
+body.dark-mode .modal-header {
+    background-color: #111827;
+    border-bottom-color: #1e293b;
+}
+
+body.dark-mode .modal-header .btn-close {
+    filter: invert(1);
+    color: #f8fafc;
+}
+
+body.dark-mode .modal-body {
+    color: #f8fafc;
+}
+
+body.dark-mode .modal-footer {
+    border-top-color: #1e293b;
+    background-color: #111827;
+}
+
+body.dark-mode .modal-title {
+    color: #f8fafc;
+}
+
+/* ============================================
+   DROPDOWNS
+   ============================================ */
+
+body.dark-mode .dropdown-menu {
+    background-color: #111827;
+    border-color: #1e293b;
+}
+
+body.dark-mode .dropdown-menu .dropdown-item {
+    color: #f8fafc;
+}
+
+body.dark-mode .dropdown-menu .dropdown-item:hover,
+body.dark-mode .dropdown-menu .dropdown-item:focus {
+    background-color: #1e293b;
+    color: #5b7cfa;
+}
+
+body.dark-mode .dropdown-menu .dropdown-divider {
+    border-color: #1e293b;
+}
+
+/* ============================================
+   SCROLLBAR
+   ============================================ */
+
+body.dark-mode ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+body.dark-mode ::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb {
+    background: #2d3748;
+    border-radius: 4px;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: #3f4a5e;
+}
+
+/* ============================================
+   TEXT & LINKS
+   ============================================ */
+
+body.dark-mode a {
+    color: #5b7cfa;
+    text-decoration: none;
+}
+
+body.dark-mode a:hover {
+    color: #4b69da;
+    text-decoration: underline;
+}
+
+body.dark-mode hr {
+    border-color: #1e293b;
+}
+
+body.dark-mode .text-muted {
+    color: #94a3b8 !important;
+}
+
+body.dark-mode .text-secondary {
+    color: #94a3b8 !important;
+}
+
+/* ============================================
+   CHARTS
+   ============================================ */
+
+body.dark-mode .chart-container {
+    color: #f8fafc;
+}
+
+/* ============================================
+   ADDITIONAL COMPONENTS
+   ============================================ */
+
+body.dark-mode .page-footer {
+    background-color: #111827;
+    border-top-color: #1e293b;
+    color: #94a3b8;
+}
+
+body.dark-mode .legend {
+    color: #f8fafc;
+}
+
+body.dark-mode .tooltip {
+    background-color: #1e293b;
+    color: #f8fafc;
+}
+
+body.dark-mode .tooltip .tooltip-inner {
+    background-color: #1e293b;
+    color: #f8fafc;
+}
+
+body.dark-mode .popover {
+    background-color: #111827;
+    border-color: #1e293b;
+}
+
+body.dark-mode .popover-header {
+    background-color: #1e293b;
+    border-color: #1e293b;
+    color: #f8fafc;
+}
+
+body.dark-mode .popover-body {
+    color: #f8fafc;
+}
+
+/* ============================================
+   ACTIVE & FOCUS STATES
+   ============================================ */
+
+body.dark-mode .active {
+    background-color: #1e293b;
+    color: #5b7cfa;
+}
+
+body.dark-mode :focus,
+body.dark-mode :focus-visible {
+    outline-color: #5b7cfa;
+}
+
+/* ============================================
+   THEME TOGGLE BUTTON STYLING
+   ============================================ */
+
+.theme-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--surface);
+    color: var(--text-main);
+    border: 1px solid var(--border-color);
+    padding: 8px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.theme-toggle-btn:hover {
+    background-color: var(--primary-soft);
+    color: var(--primary);
+    transform: scale(1.05);
+    border-color: var(--primary);
+}
+
+.theme-toggle-btn i {
+    transition: transform 0.3s ease;
+}
+
+.theme-toggle-btn:hover i {
+    transform: rotate(20deg);
+}
+
+/* ============================================
+   PENGEMBALIAN BUKU - DARK MODE FIX
+   ============================================ */
+
+body.dark-mode .borrowed-book-item {
+    background-color: #111827 !important;
+    border: 1px solid #1e293b !important;
+}
+
+body.dark-mode .borrowed-book-title {
+    color: #f8fafc !important;
+}
+
+body.dark-mode .borrowed-book-info {
+    color: #cbd5e1 !important;
+}
+
+body.dark-mode .return-details-card {
+    background-color: #111827 !important;
+    border-color: #1e293b !important;
+}
+
+body.dark-mode .return-peminjam {
+    color: #f8fafc !important;
+}
+
+body.dark-mode .return-details-card ul li {
+    color: #cbd5e1 !important;
+}
+
+body.dark-mode .return-details-card small {
+    color: #94a3b8 !important;
+}
+
+body.dark-mode .fine-preview-card {
+    background-color: rgba(239, 68, 68, 0.1) !important;
+    border-color: #ef4444 !important;
+}
+
+/* ============================================
+   SCHOOL LOGO - DARK MODE STYLING
+   ============================================ */
+
+body.dark-mode .school-logo,
+html.dark-mode .school-logo {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    object-fit: contain;
+    height: 44px !important;
+    /* Subtle glow for visibility on dark backgrounds */
+    filter: brightness(1.05) contrast(1.1) drop-shadow(0 0 4px rgba(255, 255, 255, 0.2)) !important;
+}
+
+body.dark-mode .school-logo-large,
+html.dark-mode .school-logo-large {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    object-fit: contain;
+    /* Subtle glow for visibility on dark backgrounds */
+    filter: brightness(1.05) contrast(1.1) drop-shadow(0 0 4px rgba(255, 255, 255, 0.2)) !important;
+}
+
+/* ============================================
+   GLOBAL TRANSITIONS FOR ALL ELEMENTS
+   ============================================ */
+
+/* Theme transitions are defined in style.css for targeted elements only.
+   Do NOT use body * { transition: ... !important } — it causes severe
+   jank on scroll, resize, and animations. */

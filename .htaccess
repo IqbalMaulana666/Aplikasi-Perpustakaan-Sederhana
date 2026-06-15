@@ -1,0 +1,26 @@
+# BukuKita - Apache Configuration
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # RewriteBase /Bukukita/
+
+    # Remove .php extension
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.php [QSA,L]
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+
+
+# Deny access to sensitive files
+<FilesMatch "^(database|config|includes|\.env)">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
